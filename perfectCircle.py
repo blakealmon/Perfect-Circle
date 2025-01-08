@@ -27,6 +27,11 @@ R = 400
 (x,y) = pyautogui.size()
 # locating center of the screen 
 (X,Y) = pyautogui.position(x/2,y/2)
+
+#make sure it starts if user did not click go
+pyautogui.moveTo(X, Y)
+pyautogui.click
+
 # offsetting by radius 
 pyautogui.moveTo(X+R,Y)
 #mouse down

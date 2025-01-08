@@ -15,6 +15,7 @@
 import pyautogui
 import time
 import math
+import time
 
 
 #Time to swap tabs [2 seconds]
@@ -30,7 +31,8 @@ R = 400
 
 #make sure it starts if user did not click go
 pyautogui.moveTo(X, Y)
-pyautogui.click
+
+
 
 # offsetting by radius 
 pyautogui.moveTo(X+R,Y)
